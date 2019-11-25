@@ -1,0 +1,9 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Director', 'x':18, 'y':55, 'width':138, 'height':122, 'attrs': '_builder', 'meths': 'construct_Bebida|__init__|get_Bebida'}
+{'type':'umlshape', 'id':'BebidaBuilder', 'x':213, 'y':73, 'width':140, 'height':90, 'attrs': 'Bebida', 'meths': '__init__'}
+{'type':'umlshape', 'id':'RefrescoBuilder', 'x':204, 'y':254, 'width':160, 'height':106, 'attrs': 'Bebida', 'meths': 'add_Colorante|add_Azucar'}
+{'type':'umlshape', 'id':'Bebida', 'x':484, 'y':240, 'width':82, 'height':122, 'attrs': 'Azucar|Colorante', 'meths': '__str__|__init__'}
+{'type':'edge', 'id':'Bebida_to_RefrescoBuilder', 'source':'Bebida', 'target':'RefrescoBuilder', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'RefrescoBuilder_to_BebidaBuilder', 'source':'RefrescoBuilder', 'target':'BebidaBuilder', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'BebidaBuilder_to_Director', 'source':'BebidaBuilder', 'target':'Director', 'uml_edge_type': 'composition'}

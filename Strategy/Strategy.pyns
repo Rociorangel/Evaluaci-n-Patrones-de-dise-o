@@ -1,0 +1,13 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'sistemaOperativo', 'x':283, 'y':129, 'width':170, 'height':80, 'attrs': '', 'meths': 'gamaAlta|SeguridadRobusta'}
+{'type':'umlshape', 'id':'Linux', 'x':123, 'y':316, 'width':186, 'height':64, 'attrs': '', 'meths': 'ActualizacionPeriodica'}
+{'type':'umlshape', 'id':'Windows', 'x':336, 'y':320, 'width':154, 'height':64, 'attrs': '', 'meths': 'SeguridadPeriodica'}
+{'type':'umlshape', 'id':'Mac', 'x':536, 'y':319, 'width':74, 'height':64, 'attrs': '', 'meths': 'gamaAlta'}
+{'type':'umlshape', 'id':'SoftwarePrincipal', 'x':20, 'y':129, 'width':180, 'height':90, 'attrs': 'tiposistemaoperativo', 'meths': '__init__'}
+{'type':'umlshape', 'id':'ABC', 'x':535, 'y':160, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Mac_to_sistemaOperativo', 'source':'Mac', 'target':'sistemaOperativo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Linux_to_sistemaOperativo', 'source':'Linux', 'target':'sistemaOperativo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'sistemaOperativo_to_ABC', 'source':'sistemaOperativo', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Windows_to_sistemaOperativo', 'source':'Windows', 'target':'sistemaOperativo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'sistemaOperativo_to_SoftwarePrincipal', 'source':'sistemaOperativo', 'target':'SoftwarePrincipal', 'uml_edge_type': 'composition'}

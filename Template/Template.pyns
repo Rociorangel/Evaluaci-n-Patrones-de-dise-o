@@ -1,0 +1,12 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Dispositivo', 'x':283, 'y':130, 'width':170, 'height':90, 'attrs': '_cantidadDipositivos', 'meths': 'tipoDispotivo'}
+{'type':'umlshape', 'id':'Celular', 'x':146, 'y':296, 'width':130, 'height':80, 'attrs': '', 'meths': 'Precio|tipoDispositivo'}
+{'type':'umlshape', 'id':'Tablet', 'x':294, 'y':298, 'width':130, 'height':64, 'attrs': '', 'meths': 'tipoDispositivo'}
+{'type':'umlshape', 'id':'Laptop', 'x':485, 'y':297, 'width':130, 'height':64, 'attrs': '', 'meths': 'tipoDispositivo'}
+{'type':'umlshape', 'id':'ABC', 'x':102, 'y':153, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Dispositivo_to_ABC', 'source':'Dispositivo', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Tablet_to_Dispositivo', 'source':'Tablet', 'target':'Dispositivo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Laptop_to_Dispositivo', 'source':'Laptop', 'target':'Dispositivo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Celular_to_Dispositivo', 'source':'Celular', 'target':'Dispositivo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Laptop_to_Dispositivo', 'source':'Laptop', 'target':'Dispositivo', 'uml_edge_type': 'association'}

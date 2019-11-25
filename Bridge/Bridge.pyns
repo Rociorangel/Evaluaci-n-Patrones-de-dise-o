@@ -1,0 +1,17 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Celulares', 'x':280, 'y':51, 'width':100, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Samsung', 'x':174, 'y':196, 'width':90, 'height':64, 'attrs': '', 'meths': 'dipositivo'}
+{'type':'umlshape', 'id':'Apple', 'x':410, 'y':202, 'width':98, 'height':64, 'attrs': '', 'meths': 'dispositivo'}
+{'type':'umlshape', 'id':'SamsungJ7', 'x':72, 'y':327, 'width':100, 'height':64, 'attrs': '', 'meths': 'modelo'}
+{'type':'umlshape', 'id':'SamsungA10', 'x':222, 'y':336, 'width':110, 'height':64, 'attrs': '', 'meths': 'modelo'}
+{'type':'umlshape', 'id':'Iphone7', 'x':535, 'y':324, 'width':80, 'height':64, 'attrs': '', 'meths': 'modelo'}
+{'type':'umlshape', 'id':'Iphone10', 'x':365, 'y':336, 'width':90, 'height':64, 'attrs': '', 'meths': 'modelo'}
+{'type':'umlshape', 'id':'ABC', 'x':433, 'y':61, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Iphone10_to_Apple', 'source':'Iphone10', 'target':'Apple', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'SamsungJ7_to_Samsung', 'source':'SamsungJ7', 'target':'Samsung', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Iphone7_to_Apple', 'source':'Iphone7', 'target':'Apple', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Samsung_to_Celulares', 'source':'Samsung', 'target':'Celulares', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'SamsungA10_to_Samsung', 'source':'SamsungA10', 'target':'Samsung', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Celulares_to_ABC', 'source':'Celulares', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Apple_to_Celulares', 'source':'Apple', 'target':'Celulares', 'uml_edge_type': 'generalisation'}

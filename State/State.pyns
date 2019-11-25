@@ -1,0 +1,13 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'EstatusEscolar', 'x':224, 'y':117, 'width':150, 'height':90, 'attrs': '_estudiante', 'meths': 'estudiarDuro'}
+{'type':'umlshape', 'id':'Estudiante', 'x':18, 'y':97, 'width':130, 'height':122, 'attrs': '_estatusescolar', 'meths': 'Estudiante|Yoreprobar|Yoaprobar'}
+{'type':'umlshape', 'id':'aprobado', 'x':352, 'y':281, 'width':106, 'height':64, 'attrs': '', 'meths': 'estudiarDuro'}
+{'type':'umlshape', 'id':'reprobado', 'x':176, 'y':283, 'width':106, 'height':64, 'attrs': '', 'meths': 'estudiarDuro'}
+{'type':'umlshape', 'id':'ABC', 'x':490, 'y':145, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'EstatusEscolar_to_ABC', 'source':'EstatusEscolar', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'aprobado_to_EstatusEscolar', 'source':'aprobado', 'target':'EstatusEscolar', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'reprobado_to_EstatusEscolar', 'source':'reprobado', 'target':'EstatusEscolar', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Estudiante_to_EstatusEscolar', 'source':'Estudiante', 'target':'EstatusEscolar', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'EstatusEscolar_to_Estudiante', 'source':'EstatusEscolar', 'target':'Estudiante', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Estudiante_to_EstatusEscolar', 'source':'Estudiante', 'target':'EstatusEscolar', 'uml_edge_type': 'association'}
