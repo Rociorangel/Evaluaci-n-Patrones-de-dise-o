@@ -3,20 +3,23 @@ from abc import ABC, abstractmethod
 class Dispositivo(ABC):
     @abstractmethod
     def __init__(self):
-        self._cantidadDipositivos= None
+        self.Pequeño = DispositivosMoviles()
+        self._ligero= None
+        self._Samsung = None
+     
+    
     
 class Celular(Dispositivo):
-    def tipoDispositivo(self):
+    def Ligero(self):
+        print("Es un celular")
+    def Samsung():
          print("Tiene un tamaño de 10 cm")
-    def Precio(self):
-         print("Tiene un tamaño de 10 mil pesos")
 
 class Tablet (Dispositivo):
-    def tipoDispositivo(self):
+    def Ligero(self):
         print("Es una tablet")
     
 
-class Laptop(Dispositivo):
-    def tipoDispositivo(self):
-        print("Es una latpto")
-   
+class DispositivosMoviles:
+    def __init__(self):
+        self.TipoDispositivos = None
