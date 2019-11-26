@@ -1,4 +1,5 @@
-class Director():
+
+class EmpresaCocaCola():
     def __init__(self, builder):
         self._builder = BebidaBuilder
 
@@ -10,7 +11,8 @@ class Director():
     def get_Bebida(self):
         return self._builder.Bebida
 
-class BebidaBuilder():
+class BebidaBuilder(ABC):
+    @abstractmethod
     def __init__(self):
         self.Bebida = None
 
@@ -32,7 +34,7 @@ class Bebida(RefrescoBuilder):
         return '{} | {} | {} '.format(self.Colorante, self.Azucar)
 
 builder = RefrescoBuilder()
-Director = Director(builder)
-Director.construct_Bebida
+EmpresaCocaCola = EmpresaCocaCola(builder)
+EmpresaCocaCola.construct_Bebida
 print(Bebida)
 
