@@ -1,29 +1,26 @@
 from abc import ABC, abstractmethod
 
-class Celulares (ABC):
+class Computadoras(ABC):
     @abstractmethod
-    def dispositivos(self):
-        pass
+    def __init__(self):
+        self.tipo = Tipo
+        self.caracteristicas = None
 
-class Samsung(Celulares):
-    def dipositivo(self):
+class PC(Computadoras):
         print("Dipositivo de gama alta")
 
-class Apple(Celulares):
-    def dispositivo(self):
-        print("Dispositivo de gama media")
-
-class SamsungJ7(Samsung):
-    def modelo(self):
-        print("Modelo perteneciente a Samsung")
-class SamsungA10(Samsung):
-    def modelo(self):
-        print("Modelo perteneciente a Samsung")
-
-class Iphone7(Apple):
-    def modelo(self):
+class Laptop(Computadoras):
         print("Modelo perteneciente a Apple")
 
-class Iphone10(Apple):
-    def modelo(self):
-        print("Modelo perteneciente a Apple")
+
+class Tipo:
+   print("Caracteristica/ tipo de maquina")
+        
+
+class CasaEscritorio(Tipo):
+    def grande(self):
+        print("Solo puede estar estatica")
+    
+class Portatil(Tipo):
+        print("Facíl de traer a todos lados")
+
