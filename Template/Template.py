@@ -4,11 +4,9 @@ class Dispositivo(ABC):
     @abstractmethod
     def __init__(self):
         self._cantidadDipositivos= Dispositivo()
-    def tipoDispotivo(self):
-        pass
     
 class Celular(Dispositivo):
-    def cantidadDispositivos(self):
+    def tipoDispositivo(self):
          print("Tiene un tamaño de 10 cm")
 
 class Tablet (Dispositivo):
