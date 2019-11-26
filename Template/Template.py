@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 class Dispositivo(ABC):
     @abstractmethod
     def __init__(self):
-        self._cantidadDipositivos= Celular()
+        self._cantidadDipositivos= Dispositivo()
     def tipoDispotivo(self):
         pass
     
