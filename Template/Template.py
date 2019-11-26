@@ -3,15 +3,12 @@ from abc import ABC, abstractmethod
 class Dispositivo(ABC):
     @abstractmethod
     def __init__(self):
-        self._cantidadDipositivos= Laptop()
+        self._cantidadDipositivos= Celular()
     def tipoDispotivo(self):
         pass
     
-    
 class Celular(Dispositivo):
-    def tipoDispositivo(self):
-        print("Es un celular")
-    def Precio(self):
+    def cantidadDispositivos(self):
          print("Tiene un tamaño de 10 cm")
 
 class Tablet (Dispositivo):
